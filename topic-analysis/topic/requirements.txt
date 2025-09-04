@@ -1,0 +1,8 @@
+fastapi
+langdetect
+numpy
+nltk
+pandas
+Sastrawi
+requests
+uvicorn
