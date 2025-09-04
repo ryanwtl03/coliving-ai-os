@@ -14,7 +14,7 @@ import { AIChatAssistant } from './components/AIChatAssistant';
 import { DashboardFilters, FilterState } from './components/DashboardFilters';
 import { MessageCircle, CheckCircle, AlertTriangle, ThumbsDown, AlertCircle } from 'lucide-react';
 
-const API_BASE = "http://127.0.0.1:4000/coliving-ai-os/chat-analysis"; // adjust if backend is elsewhere
+const API_BASE = "http://172.16.135.237:4000/coliving-ai-os/chat-analysis"; // adjust if backend is elsewhere
 
 export default function App() {
   const [conversations, setConversations] = useState<Conversation[]>([]);
